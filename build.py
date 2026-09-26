@@ -27,6 +27,7 @@ IMG = {
  "temazcal": "../img/a65dbd9d-cede-49fd-a439-86597408290e.webp",
  "gate": "../img/img_8224.webp",
  "detail": "../img/img_1693.webp",
+ "hero": "../img/8b42eb1f-f22e-4067-aff5-c77484f9aae4.webp",
  "video": "../IMG_3279.mp4",
 }
 # (original file, category, alt EN, alt ES) — all 60 ranch photographs
@@ -195,7 +196,7 @@ PAGES = {}
 # ---------------- HOME ----------------
 PAGES[("en","index.html")] = ("Rancho El Aguacero — A Timeless Countryside Escape in Jalisco, Mexico",
 "A peaceful countryside escape in Jalisco: ranch stays, cabins, day passes, camping, Temazcal, horseback riding and private events. Book direct.",
-f"""<section class="hero"><video class="hero-bg" autoplay muted loop playsinline preload="metadata" poster="{IMG['aerial']}"><source src="{IMG['video']}" type="video/mp4"></video>
+f"""<section class="hero"><img class="hero-bg" src="{IMG['hero']}" alt="Sunset over the ranch grounds and pool at Rancho El Aguacero" fetchpriority="high">
 <div class="hero-inner"><p class="eyebrow" style="color:var(--sand)">Jalisco · México — Leave the world behind</p>
 <h1 class="display">A TIMELESS PLACE<br>TO SLOW DOWN.</h1>
 <p class="sub">A peaceful countryside escape in Jalisco where nature, history, celebration, and time together come naturally.</p>
@@ -244,7 +245,7 @@ f"""<section><div class="wrap split rv"><div class="txt"><p class="eyebrow">The 
 
 PAGES[("es","index.html")] = ("Rancho El Aguacero — Un Refugio Atemporal en el Campo de Jalisco",
 "Un refugio en el campo de Jalisco: hospedaje, cabañas, pases de día, campamento, Temazcal, cabalgatas y eventos privados. Reserva directa.",
-f"""<section class="hero"><video class="hero-bg" autoplay muted loop playsinline preload="metadata" poster="{IMG['aerial']}"><source src="{IMG['video']}" type="video/mp4"></video>
+f"""<section class="hero"><img class="hero-bg" src="{IMG['hero']}" alt="Atardecer sobre los jardines y la alberca de Rancho El Aguacero" fetchpriority="high">
 <div class="hero-inner"><p class="eyebrow" style="color:var(--sand)">Jalisco · México — Deja el mundo atrás</p>
 <h1 class="display">UN LUGAR ATEMPORAL<br>PARA IR MÁS DESPACIO.</h1>
 <p class="sub">Un refugio en el campo de Jalisco donde la naturaleza, la historia, la celebración y el tiempo compartido se encuentran.</p>
